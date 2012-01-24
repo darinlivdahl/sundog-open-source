@@ -1,0 +1,109 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: Arial, helvetica, sans-serif;
+	vertical-align: baseline;
+	line-height:1;
+	color: #333333; 
+}
+:focus {
+	outline: 0;
+}
+ol, ul {
+	list-style: none;
+	padding: 0px;
+}
+ul li, ol li {
+	margin-left: 0px;
+}
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+html { background-color: #dcdcdc; }
+body {
+	line-height: 1;
+	color: #333333;
+	background: #ffffff;
+	height: 100%;
+	font-family: Arial, helvetica, sans-serif;	
+}
+#wrapper {
+	width: 960px;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+	zoom: 1;
+}
+#content{
+	width:940px;
+	height:100%;
+	margin: 0 auto;
+	margin-top: 80px;
+	position: relative;
+	z-index:1;
+	zoom: 1;
+	clear: both;	
+}
+#hc2 { height: 235px; }
+.header-content {
+	position: relative;
+	width: 100%;
+	margin-top: -55px;
+	text-align: center;
+	background-repeat: repeat-x;
+	background-position: left top;
+	background-color: transparent;
+}
+.header-content-wrapper {
+	display: none;
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+	padding-top: 45px;
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-color: transparent;
+	text-align: left;
+	z-index: 300;
+}
+#hc2 .header-content-wrapper { height: 192px; }
+.header-content-wrapper:first-child { display: block; }
+.header-content-wrapper-animated{
+	overflow: hidden;
+}
+.display_animation{
+	bottom: 20px;
+	position: absolute;
+	left: 20px;
+	background-image: url(images/bt_search_input.jpg);
+	background-color: transparent;
+	background-repeat: no-repeat;
+	text-indent: -9999em;
+	width: 22px;
+	height: 21px;
+	z-index:25;
+}

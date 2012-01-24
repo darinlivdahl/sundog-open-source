@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>Animation</title>
+    <meta name="description" content="An open-source for banner animations" />
+	<meta http-equiv="imagetoolbar" content="no" />
+    <link class="css-lnk-all" href="screen.css" media="all" rel="stylesheet" type="text/css" />
+    <script src="http://code.jquery.com/jquery.min.js"></script>
+    <script src="banner-animation-0.5.js"></script>
+</head>
+<body>
+    <div id="wrapper">
+       <div id="content">
+           <div id="hc2"  class="header-content"  style="background-image: url(images/Bear_Frame_gradient.jpg);">
+           <!-- This is an example of using the html attributes to set up the animation -->
+           <!-- Another example can be seen in http://www.medtronicdiabetes.net/products/mysentry -->
+                <div class="header-content-wrapper header-content-wrapper-animated" start_in="0" replay="true" style="background-image: url(images/Bear_Frame-1.jpg); overflow:hidden; " >
+                
+                    <img class="animated" id="his-security-right" interval_time="0" src="images/mySentry-Banner_bluebar.png" style="position:absolute; top:20px; right: -260px; z-index:22; width:260px; height:75px;" x_pos0="0" direction0="right" time0="2000" x_pos1="0"  time1="500" direction1="right" x_pos2="-260"  time2="2000" direction2="right" />
+                    
+                    <img class="animated" id="his-security-left" interval_time="2500" src="images/his_security_img.png" style="position:absolute; top:50px; left: -142px; z-index:22; width:142px; height:27px;" x_pos0="20" time0="2000" direction0="left" x_pos1="20" time1="2000" direction1="left"/>
+                    
+                    <img class="animated" id="right-image-fade-in" interval_time="4000" src="images/Bear_Frame3_left.jpg" style="position:absolute; top:0px; right: 0px; z-index:23; opacity:0;" opacity0="1" time0="5000"/>
+                    
+                    <img class="animated" id="your-security-left" interval_time="8000" src="images/your_security_img.png" style="position:absolute; top:50px; right: -164px; z-index:24; width:164px; height:27px;" direction0="right" x_pos0="20" time0="2000" direction1="right" x_pos1="20"  time1="0"  />
+                    
+                    <img class="animated" id="mysentry-fade-in" interval_time="10000" src="images/mySentry_logo.png" style="position:absolute; bottom:20px; right: 10px; z-index:25; opacity:0; filter:alpha(opacity=0); ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=0)" opacity0="1" time0="2000"/>   
+                         
+                    <img class="animated" id="rays-fade-in" interval_time="11000" src="images/mySentry-Banner_rays3.png" style="position:absolute; bottom:2px; right: 260px; z-index:25; width:0px;" direction0="width" y_pos0="455" time0="2000" />
+                   
+                </div>
+           </div>
+       </div>
+    </div>  
+</body>
+</html>
